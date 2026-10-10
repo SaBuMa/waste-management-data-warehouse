@@ -7,8 +7,6 @@
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-Final project for the **Data Warehouse Fundamentals** course, part of the **IBM Data Engineering Professional Certificate** (Coursera).
-
 A **star-schema data warehouse** for a solid waste management company that collects and recycles waste across major cities in Brazil. The project covers dimensional modeling, schema implementation in PostgreSQL, loading 106,400 trip records from CSV, and building analytical reports with **GROUPING SETS**, **ROLLUP**, **CUBE** and a **materialized view**.
 
 > ⚡ **[Enhanced Edition](enhanced/README.md):** the same warehouse rebuilt as a production-style pipeline, with staging and warehouse layers, an automated data-quality gate, idempotent upserts, a fix for a defect found in the source data, and an **Apache Airflow** DAG that refreshes the reports.
